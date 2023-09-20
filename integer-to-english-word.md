@@ -5,7 +5,7 @@ You will be given an integer, your task is to convert it to English word represe
 ## Approach: Divide and Conquer 
 
 ### Intuition:
-In the International Number System, Every three digits are equivalent while writing it in English words. So, we can divide it in  chunks of three digits and proceed.
+We can visualize our number to be divided in chunks of size 3. Then all the chunks will behave in the same manner, but will just have an extra prefix. This is due to the number being in the International number system.
 
 ### Example: 
 **Input**:
